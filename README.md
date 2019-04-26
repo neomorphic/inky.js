@@ -24,12 +24,11 @@ it is still in early development and may be unstable on some devices
 ### index:
 [intro](#intro)<br>
 [installation](#installation)<br>
-[usage](#usage)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[console-log](#console-log)
+[usage](#usage)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[console-log](#console-log)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[inky-color](#inky-color)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[inky-terminal](#inky-terminal)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[features](#features)
-<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[inky-terminal](#inky-terminal)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[features](#features)<br>
 [Color List](#color-list)
 
 ## intro:
