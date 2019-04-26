@@ -80,29 +80,29 @@ Yellow| yes|yes|yes
 |Name| style| terminal|foreground|background|
 |-|-|-|-|-|
 |Black|||||
-||bold|no|yes|no|
-||underscore|no|yes|no|
+||bold|yes|yes|no|
+||underscore|yes|yes|no|
 |Blue|||||
-||bold|no|yes|no|
-||underscore|no|yes|no|
+||bold|yes|yes|no|
+||underscore|yes|yes|no|
 |Cyan|||||
-||bold|no|yes|no|
-||underscore|no|yes|no|
+||bold|yes|yes|no|
+||underscore|yes|yes|no|
 |Green|||||
 ||bold|yes|yes|yes|
 ||underscore|yes|yes|yes|
 |Magenta|||||
-||bold|no|yes|no|
-||underscore|no|yes|no|
+||bold|yes|yes|no|
+||underscore|yes|yes|no|
 |Red|||||
 ||bold|yes|yes|yes|
 ||underscore|yes|yes|yes|
 |White|||||
-||bold|no|yes|no|
-||underscore|no|yes|no|
+||bold|yes|yes|no|
+||underscore|yes|yes|no|
 |Yellow|||||
-||bold|no|yes|no|
-||underscore|no|yes|no|
+||bold|yes|yes|no|
+||underscore|yes|yes|no|
 
 |BONUS FEATURES| Note|
 |--|-|
