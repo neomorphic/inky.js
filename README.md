@@ -24,12 +24,12 @@ it is still in early development and may be unstable on some devices
 ### index:
 [intro](#intro)<br>
 [installation](#installation)<br>
-[usage](#usage)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[console-log](#console-log)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[inky-color](#inky-color)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[inky-terminal](#inky-terminal)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[features](#features)<br>
-[Color List](#color-list)
+[usage](#usage)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[console.log](#console.log)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[inky.terminal](#inky.terminal)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[features](#features)
+<br>
+[Support List](#support-list)
 
 ## intro:
 
@@ -43,15 +43,22 @@ Inky.js is an early stage competitor to the likes of [chalk](https://npmjs.com/p
 ``yarn add inky.js``
 
 ## usage:
-### console-log;
+### console.log:
+```js
+console.log(inky.red.bold('Hello World'))
+```
+### inky.terminal:
 
-#### inky-color:
+Inky.terminal is an extemded featureset of the default gloal conole, supporting all of the documented features of the console and extending them to include color features:
 
-### inky-terminal:
+```js
+const terminal = new inky.terminal()
+terminal.<color>.<style>()
+//or you can use the console-log method
+terminal.log(inky.<color>('Hello World'))
+```
 
-#### features:
-
-## Color List
+## Support List
 
 ### default colors (no styles)
 
@@ -103,3 +110,7 @@ Yellow| yes|yes|yes
 
 
 >all bonus features have full support in all output modes
+
+
+
+found a problem? open an issue on our [GitHub page](https://github.com/fatalcenturion/inky.js/issues)
