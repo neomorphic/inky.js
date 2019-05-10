@@ -1,0 +1,28 @@
+{
+  "author": {
+    "name": "Thomas Bardsley"
+  },
+  "bin": {
+    "ink": "./ink-cli.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "supports-color": "^6.1.0"
+  },
+  "description": "terminal styling - your way",
+  "keywords": [
+    "color",
+    "cli",
+    "style"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "inky.js",
+  "repository": {
+    "git": "https://github.com/fatalcenturion/inky.js/"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "version": "0.1.2"
+}

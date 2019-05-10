@@ -12,11 +12,11 @@ it is still in early development and may be unstable on some devices
 |-|-|-|
 |inky.`<color>`(`<text>`) | true | 0.0.1 +|
 |inky.terminal | true | 0.0.2 +|
-|inky.terminal.`<color>`(`<text>`) | true | 0.0.2 +|
-|String.`<color>`()| false | TBA |
-|inky.terminal.rgb(`<r>`, `<g>`, `<b>`, `<text>`)| false| TBA |
-|inky.terminal.hex(#`<hex>`, `<text>`)| false | TBA|
-
+|String.`<color>`()| false | Cancelled |
+|inky.hex|partial (inky.terminal only)| 0.1.0 +|
+|inky.rgb| partial (inky.terminal only)| 0.1.0 +|
+|TrueColor|partial (inky.terminal only)| 0.1.0 +|
+|gradient| partial (inky.terminal only) | 0.1.1 +|
 
 
 ## Docs:
@@ -26,8 +26,7 @@ it is still in early development and may be unstable on some devices
 [installation](#installation)<br>
 [usage](#usage)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[console.log](#console.log)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[inky.terminal](#inky.terminal)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[features](#features)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[inky.terminal](#inky.terminal)
 <br>
 [Support List](#support-list)
 
