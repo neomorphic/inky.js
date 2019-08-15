@@ -48,7 +48,7 @@ console.log(inky.red.bold('Hello World'))
 ```
 ### inky.terminal:
 
-Inky.terminal is an extemded featureset of the default gloal conole, supporting all of the documented features of the console and extending them to include color features:
+Inky.terminal is an extended featureset of the default gloal console, supporting all of the documented features of the console and extending them to include color features:
 
 ```js
 const terminal = new inky.terminal()
